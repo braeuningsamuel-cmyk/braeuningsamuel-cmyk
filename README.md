@@ -10,7 +10,7 @@
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
 - 🔧 I build **self-hosted infrastructure** with Docker, WireGuard, and Pi-hole
 - 🤖 I create **AI agents** that automate the boring stuff (Telegram bots, daily briefings)
@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -31,21 +31,18 @@
 ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
 ---
 
-## 📂 Featured Projects
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%">
 
-### 🏠 [Bootstreep Homelab](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab)
+### [Bootstreep Homelab](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab)
 > One command. Full homelab.
 
 - **21+ Docker services** (Pi-hole, Unbound, Ollama, Jellyfin, n8n, ...)
@@ -58,7 +55,7 @@
 </td>
 <td width="50%">
 
-### 🖥️ [Bootstreep Dashboard](https://github.com/braeuningsamuel-cmyk/bootstreep-dashboard)
+### [Bootstreep Dashboard](https://github.com/braeuningsamuel-cmyk/bootstreep-dashboard)
 > Desktop app for server control.
 
 - **Tauri 2.x** (Rust + Vanilla JS)
@@ -73,7 +70,7 @@
 <tr>
 <td width="50%">
 
-### 🛡️ [Home Lab Guardian](https://github.com/braeuningsamuel-cmyk/home-lab-guardian)
+### [Home Lab Guardian](https://github.com/braeuningsamuel-cmyk/home-lab-guardian)
 > Security monitoring for homelabs.
 
 - Intrusion detection
@@ -85,7 +82,7 @@
 </td>
 <td width="50%">
 
-### 📱 [Homelab App](https://github.com/braeuningsamuel-cmyk/Homelab-App)
+### [Homelab App](https://github.com/braeuningsamuel-cmyk/Homelab-App)
 > Mobile companion app.
 
 `Coming Soon`
@@ -96,7 +93,7 @@
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -108,13 +105,13 @@
 
 ---
 
-## 🐍 Contribution Graph
+## Contribution Graph
 
 ![Samuel's github activity](https://github-readme-activity-graph.vercel.app/graph?username=braeuningsamuel-cmyk&bg_color=0d1117&color=4A9EFF&line=4A9EFF&point=ffffff&area_color=4A9EFF&area=true&hide_border=true&custom_title=GitHub%20Activity%20Graph)
 
 ---
 
-## 🤝 Let's Connect
+## Let's Connect
 
 <div align="center">
 
