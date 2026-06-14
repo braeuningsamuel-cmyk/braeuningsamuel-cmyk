@@ -4,7 +4,7 @@
 
 ### `> Building homelabs, breaking things, fixing them again.`
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A9EFF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Homelab+Enthusiast;Full-Stack+Developer;AI+%26+Automation+Freak;Open+Source+Contributor)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A9EFF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Homelab+Enthusiast;Full-Stack+Developer;AI+%26+Automation+Freak;Open+Source+Contributor)](https://readme-typing-svg.demolab.com)
 
 </div>
 
@@ -70,14 +70,14 @@
 <tr>
 <td width="50%">
 
-### [Home Lab Guardian](https://github.com/braeuningsamuel-cmyk/home-lab-guardian)
-> Security monitoring for homelabs.
+### [Bootstreep AI Agent](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab/tree/main/ai-agent)
+> Telegram bot for server control.
 
-- Intrusion detection
-- Log analysis
-- Alert system
+- Daily briefings
+- Remote commands
+- Ollama integration
 
-`TypeScript`
+`Python`
 
 </td>
 <td width="50%">
@@ -115,7 +115,6 @@
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/braeuningsamuel-cmyk)
 
 </div>
