@@ -1,38 +1,72 @@
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/status-building-6C5CE7?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/focus-homelab-00B894?style=for-the-badge" alt="Focus">
+  <img src="https://img.shields.io/badge/location-germany-F09D51?style=for-the-badge" alt="Location">
+</p>
 
-# Hey, ich bin Samuel 👋
+<h1 align="center">Samuel</h1>
 
-### `> Building homelabs, breaking things, fixing them again.`
+<p align="center">
+  <b>Homelab-Enthusiast · KI-Automation · Privacy-First</b>
+  <br>
+  <i>» Building enterprise-inspired infrastructure, one container at a time «</i>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A9EFF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Homelab+Enthusiast;Full-Stack+Developer;AI+%26+Automation+Freak;Open+Source+Contributor)](https://readme-typing-svg.demolab.com)
+<p align="center">
+  <code>sudo rm -rf / && echo "just kidding"</code>
+</p>
 
-</div>
+<br>
 
 ---
 
 ## About Me
 
-- 🔧 I build **self-hosted infrastructure** with Docker, WireGuard, and Pi-hole
-- 🤖 I create **AI agents** that automate the boring stuff (Telegram bots, daily briefings)
-- 🏠 Running a **21-service homelab** on a single Ubuntu server
-- 🛠️ Currently building **Bootstreep** — a one-command homelab bootstrap
-- 📍 Germany
+<table>
+<tr>
+<td width="60%">
+
+- 🔧 Baue **self-hosted Infrastructure** mit Docker, Ansible, ZFS
+- 🤖 Entwickle **KI-Agenten** für Telegram (Server-Steuerung, tägliche Briefings)
+- 🏠 Betreibe ein **30+ Service Homelab** auf Enterprise-Niveau
+- 🚀 Creator von **Bootstreep** — Privacy-First Homelab in einem Befehl
+- 🇩🇪 Deutschland
+
+</td>
+<td width="40%" align="center">
+
+**Current Status**
+
+```
+🟢 Homelab:    v4.0.0 LIVE
+🤖 KI-Agent:   14 Commands
+📊 Monitoring: Grafana + Prometheus
+🔐 Security:   CrowdSec + Authentik
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Tech Stack
 
-<div align="center">
-
-![Shell](https://img.shields.io/badge/Shell-12100E?style=for-the-badge&logo=gnubash&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Shell-12100E?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white" alt="Tauri">
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana">
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus">
+  <img src="https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white" alt="Tailscale">
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
+  <img src="https://img.shields.io/badge/ZFS-2A6670?style=for-the-badge&logo=linux&logoColor=white" alt="ZFS">
+</p>
 
 ---
 
@@ -40,52 +74,66 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### [Bootstreep Homelab](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab)
-> One command. Full homelab.
+### ⚡ Bootstreep Homelab
+*Enterprise Homelab · Ein-Klick-Setup*
 
-- **21+ Docker services** (Pi-hole, Unbound, Ollama, Jellyfin, n8n, ...)
-- Single `bootstrap.sh` for Ubuntu 24.04
-- AI agent with Telegram bot
-- Cloud-init support
+- 30+ gehärtete Docker-Services
+- Lokale KI (Ollama, LiteLLM, ChromaDB)
+- Grafana-Monitoring, Authentik-SSO
+- CrowdSec WAF, Netzwerk-Isolation
+- 8 Disaster-Recovery-Szenarien
 
-`Shell` `Docker` `Ansible`
+`Shell` `Docker` `Ansible` `Python`
+
+[![Read More](https://img.shields.io/badge/View-Repo-6C5CE7?style=flat-square)](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### [Bootstreep Dashboard](https://github.com/braeuningsamuel-cmyk/bootstreep-dashboard)
-> Desktop app for server control.
+### 🖥️ Bootstreep Dashboard
+*Desktop-App für Homelab-Control*
 
-- **Tauri 2.x** (Rust + Vanilla JS)
-- Docker container management
-- System monitoring (CPU, RAM, Disk)
-- Port checker, terminal, file manager
+- Tauri 2.x (Rust + Vanilla JS)
+- Docker-Container-Management
+- System-Monitoring (CPU, RAM, Disk)
+- Port-Checker, Terminal, File-Manager
 
-`TypeScript` `Rust` `Tauri`
+`TypeScript` `Rust` `Tauri` `Docker`
+
+[![Read More](https://img.shields.io/badge/View-Repo-6C5CE7?style=flat-square)](https://github.com/braeuningsamuel-cmyk/bootstreep-dashboard)
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### [Bootstreep AI Agent](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab/tree/main/ai-agent)
-> Telegram bot for server control.
+### 🤖 AI-Agent
+*Telegram-Bot für Server-Steuerung*
 
-- Daily briefings
-- Remote commands
-- Ollama integration
+- 14 Befehle (/status, /restart, /ask, ...)
+- Lokale Ollama-KI (keine Cloud)
+- Tägliche Briefings (Wetter, News, Aktien)
+- Command-Whitelist + Shell-Security
 
-`Python`
+`Python` `Telegram` `Ollama`
+
+[![Read More](https://img.shields.io/badge/View-Repo-6C5CE7?style=flat-square)](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab/tree/main/ai-agent)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### [Homelab App](https://github.com/braeuningsamuel-cmyk/Homelab-App)
-> Mobile companion app.
+### 🛡️ Home Lab Guardian
+*Security Monitoring für Homelabs*
 
-`Coming Soon`
+- Intrusion Detection
+- Log-Analyse
+- Alerting
+
+`Docker` `Python` `Security`
+
+[![Read More](https://img.shields.io/badge/View-Repo-6C5CE7?style=flat-square)](https://github.com/braeuningsamuel-cmyk/home-lab-guardian)
 
 </td>
 </tr>
@@ -95,34 +143,31 @@
 
 ## GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=braeuningsamuel-cmyk&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=6C5CE7&icon_color=6C5CE7&text_color=c9d1d9&count_private=true" height="180" alt="Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=braeuningsamuel-cmyk&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=6C5CE7&text_color=c9d1d9" height="180" alt="Languages">
+</p>
 
-![Samuel's GitHub stats](https://github-readme-stats.vercel.app/api?username=braeuningsamuel-cmyk&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=4A9EFF&icon_color=4A9EFF&text_color=c9d1d9)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=braeuningsamuel-cmyk&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=4A9EFF&text_color=c9d1d9)
-
-</div>
-
----
-
-## Contribution Graph
-
-![Samuel's github activity](https://github-readme-activity-graph.vercel.app/graph?username=braeuningsamuel-cmyk&bg_color=0d1117&color=4A9EFF&line=4A9EFF&point=ffffff&area_color=4A9EFF&area=true&hide_border=true&custom_title=GitHub%20Activity%20Graph)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=braeuningsamuel-cmyk&bg_color=0d1117&color=6C5CE7&line=6C5CE7&point=ffffff&area_color=6C5CE7&area=true&hide_border=true&custom_title=Activity%20Graph" width="95%" alt="Activity">
+</p>
 
 ---
 
 ## Let's Connect
 
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/braeuningsamuel-cmyk)
-
-</div>
+<p align="center">
+  <a href="https://github.com/braeuningsamuel-cmyk">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
 
 ---
 
-<div align="center">
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=braeuningsamuel-cmyk&color=6C5CE7&style=for-the-badge&label=PROFILE+VIEWS" alt="Views">
+</p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=braeuningsamuel-cmyk&color=4A9EFF&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
+<p align="center">
+  <i>Privacy-First · Local AI · Enterprise Architecture</i>
+</p>
