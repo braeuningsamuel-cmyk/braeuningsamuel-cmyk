@@ -38,10 +38,11 @@
 **Current Status**
 
 ```
-🟢 Homelab:    v4.0.0 LIVE
-🤖 KI-Agent:   14 Commands
-📊 Monitoring: Grafana + Prometheus
-🔐 Security:   CrowdSec + Authentik
+🟢 Homelab:    v4.1.2 LIVE
+🤖 KI-Agent:   LiteLLM Gateway + 14 CMDs
+📊 Monitoring: Grafana + Prometheus + Loki
+🔐 Security:   CrowdSec + Authentik + WAF
+💾 Backup:    GPG-verschlüsselt + ZFS Snapshots
 ```
 
 </td>
@@ -77,15 +78,16 @@
 <td width="50%" valign="top">
 
 ### ⚡ Bootstreep Homelab
-*Enterprise Homelab · Ein-Klick-Setup*
+*Enterprise Homelab · Ein-Klick-Bootstrap · v4.1*
 
-- 30+ gehärtete Docker-Services
-- Lokale KI (Ollama, LiteLLM, ChromaDB)
-- Grafana-Monitoring, Authentik-SSO
-- CrowdSec WAF, Netzwerk-Isolation
-- 8 Disaster-Recovery-Szenarien
+- **30+ gehärtete Docker-Services** — Pi-hole, Nextcloud, Jellyfin, Vaultwarden, MinIO
+- **Lokale KI** — Ollama via LiteLLM-Gateway, ChromaDB RAG, Open WebUI
+- **Monitoring** — Grafana 11, Prometheus, Loki, cAdvisor, Node Exporter
+- **Security** — CrowdSec WAF, Authentik SSO, Netzwerk-Isolation, UFW, Fail2Ban
+- **DevSecOps CI** — 8 CI-Jobs, Gitleaks, Trivy, Pinned Tags, Env-Check
+- **Backup & DR** — GPG-verschlüsselt, ZFS Snapshots, 8 DR-Szenarien
 
-`Shell` `Docker` `Ansible` `Python`
+`Shell` `Docker` `Ansible` `Python` `Grafana` `CrowdSec`
 
 [![Read More](https://img.shields.io/badge/View-Repo-6C5CE7?style=flat-square)](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab)
 
@@ -93,12 +95,12 @@
 <td width="50%" valign="top">
 
 ### 🖥️ Bootstreep Dashboard
-*Desktop-App für Homelab-Control*
+*Desktop-App für Homelab-Control (Tauri)*
 
-- Tauri 2.x (Rust + Vanilla JS)
-- Docker-Container-Management
-- System-Monitoring (CPU, RAM, Disk)
+- Tauri 2.x (Rust + Vanilla JS) — nativ, schnell, klein
+- Docker-Container-Management + System-Monitoring
 - Port-Checker, Terminal, File-Manager
+- Verbindung zu authentifizierten Endpoints
 
 `TypeScript` `Rust` `Tauri` `Docker`
 
@@ -109,15 +111,15 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 AI-Agent
-*Telegram-Bot für Server-Steuerung*
+### 🤖 Telegram AI-Agent
+*Server-Steuerung per Chat · Lokale KI*
 
-- 14 Befehle (/status, /restart, /ask, ...)
-- Lokale Ollama-KI (keine Cloud)
-- Tägliche Briefings (Wetter, News, Aktien)
-- Command-Whitelist + Shell-Security
+- 14 Befehle (`/status`, `/restart`, `/ask`, `/briefing`, ...)
+- LiteLLM-Gateway (OpenAI-kompatibel, kein Cloud-API-Key nötig)
+- Tägliche Briefings (Wetter, News, Aktien, E-Mail)
+- Command-Whitelist, `shell=False`, Authenticated-only
 
-`Python` `Telegram` `Ollama`
+`Python` `Telegram` `LiteLLM` `Ollama`
 
 [![Read More](https://img.shields.io/badge/View-Repo-6C5CE7?style=flat-square)](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab/tree/main/ai-agent)
 
@@ -125,19 +127,27 @@
 <td width="50%" valign="top">
 
 ### 🛡️ Home Lab Guardian
-*Security Monitoring für Homelabs*
+*Security-Monitoring + Intrusion Detection*
 
-- Intrusion Detection
-- Log-Analyse
-- Alerting
+- Anomalie-Erkennung in Logs und Metriken
+- Automatische Alerting-Pipelines
+- Integration mit CrowdSec und Grafana
+- Privacy-First: komplett lokal, keine Telemetrie
 
-`Docker` `Python` `Security`
+`Docker` `Python` `Security` `Grafana`
 
 [![Read More](https://img.shields.io/badge/View-Repo-6C5CE7?style=flat-square)](https://github.com/braeuningsamuel-cmyk/home-lab-guardian)
 
 </td>
 </tr>
 </table>
+
+### 📦 Weitere Repos
+
+| Repo | Beschreibung |
+|------|-------------|
+| [home-lab-guardian](https://github.com/braeuningsamuel-cmyk/home-lab-guardian) | Security-Monitoring für Homelabs |
+| [bootstreep-dashboard](https://github.com/braeuningsamuel-cmyk/bootstreep-dashboard) | Tauri Desktop-App |
 
 ---
 
