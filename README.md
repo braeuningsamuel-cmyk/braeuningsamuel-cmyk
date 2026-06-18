@@ -38,7 +38,7 @@
 **Current Status**
 
 ```
-🟢 Homelab:    v4.1.2 LIVE
+🟢 Homelab:    v4.2.0 LIVE
 🤖 KI-Agent:   LiteLLM Gateway + 14 CMDs
 📊 Monitoring: Grafana + Prometheus + Loki
 🔐 Security:   CrowdSec + Authentik + WAF
@@ -78,7 +78,7 @@
 <td width="50%" valign="top">
 
 ### ⚡ Bootstreep Homelab
-*Enterprise Homelab · Ein-Klick-Bootstrap · v4.1*
+*Enterprise Homelab · Ein-Klick-Bootstrap · v4.2*
 
 - **30+ gehärtete Docker-Services** — Pi-hole, Nextcloud, Jellyfin, Vaultwarden, MinIO
 - **Lokale KI** — Ollama via LiteLLM-Gateway, ChromaDB RAG, Open WebUI
