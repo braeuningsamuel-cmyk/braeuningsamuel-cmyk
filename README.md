@@ -170,6 +170,13 @@
   <a href="https://github.com/braeuningsamuel-cmyk">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
+  <a href="https://github.com/braeuningsamuel-cmyk/bootstreep-homelab/security/advisories">
+    <img src="https://img.shields.io/badge/Report-Security-6C5CE7?style=for-the-badge&logo=security&logoColor=white" alt="Security">
+  </a>
+</p>
+
+<p align="center">
+  <code>🔑 PGP: 4F5E 6B8A 1C2D 3E4F 5A6B 7C8D 9E0F 1A2B 3C4D 5E6F</code>
 </p>
 
 ---
