@@ -1,0 +1,54 @@
+# Bootstreep Profile — standard ignores
+# This repo is markdown-only; these ignores keep the working tree clean.
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Secrets (defense in depth)
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+# Python (in case scripts get added later)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node (in case tooling gets added later)
+node_modules/
+.npm
+.yarn
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build artefacts
+dist/
+build/
+out/
+*.tgz
+*.tar.gz
+
+# Misc
+*.bak
+*.tmp
+*.swp
+.DS_Store
