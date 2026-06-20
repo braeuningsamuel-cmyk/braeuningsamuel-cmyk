@@ -142,12 +142,14 @@
 </tr>
 </table>
 
-### 📦 Weitere Repos
+### 📦 Alle Repositories
 
-| Repo | Beschreibung |
-|------|-------------|
-| [home-lab-guardian](https://github.com/braeuningsamuel-cmyk/home-lab-guardian) | Security-Monitoring für Homelabs |
-| [bootstreep-dashboard](https://github.com/braeuningsamuel-cmyk/bootstreep-dashboard) | Tauri Desktop-App |
+| Repo | Beschreibung | Stack | Quality |
+|------|-------------|-------|:-------:|
+| [bootstreep-homelab](https://github.com/braeuningsamuel-cmyk/bootstreep-homelab) | Privacy-First Homelab Bootstrap (Traefik, Authentik, Prometheus, Loki, Grafana, Vaultwarden) | Bash · Ansible · Docker | 5/5 |
+| [bootstreep-dashboard](https://github.com/braeuningsamuel-cmyk/bootstreep-dashboard) | Homelab Control Center (System, Docker, Services, Files, Terminal) | Tauri · Rust · TypeScript | 5/5 |
+| [home-lab-guardian](https://github.com/braeuningsamuel-cmyk/home-lab-guardian) | Security-Monitoring & Intrusion Detection (Log-Analyse, CrowdSec, Alerting) | TanStack Start · React · Bun | 5/5 |
+| [Homelab-Base](https://github.com/braeuningsamuel-cmyk/Homelab-Base) | Unified Monorepo (infra + apps + profile + docs) | Docker · Ansible · TS | 5/5 |
 
 ---
 
